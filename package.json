@@ -1,0 +1,48 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@chromatic-com/storybook": "^1.6.1",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/blocks": "^8.2.9",
+    "@storybook/html": "^8.2.9",
+    "@storybook/html-vite": "^8.2.9",
+    "@storybook/test": "^8.2.9",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "astro": "^4.14.2",
+    "daisyui": "^4.12.6",
+    "eslint": "^8.57.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "prettier-plugin-astro": "^0.13.0",
+    "storybook": "^8.2.9",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "@supabase/supabase-js": "^2.45.1",
+    "@tailwindcss/typography": "^0.5.13",
+    "tailwindcss": "^3.4.10"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+  }
+}
