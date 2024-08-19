@@ -1,7 +1,8 @@
 const themes = require('daisyui/src/theming/themes')
+
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./src/**/*.{astro,html,js}'],
+  content: ['./src/**/*.{astro,html,ts}'],
   theme: {
     extend: {
       fontFamily: {
