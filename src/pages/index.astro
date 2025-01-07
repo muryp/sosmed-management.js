@@ -1,5 +1,5 @@
 ---
-
+import Component from '../components/layouts'
 ---
 
 <html lang="en">
@@ -12,5 +12,6 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+    <div set:html={Component()}/>
 	</body>
 </html>

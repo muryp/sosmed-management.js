@@ -28,15 +28,18 @@ module.exports = {
   overrides: [
     {
       files: ['*.ts'],
-      plugins: ['lit', 'lit-a11y'],
+      // plugins: ['lit', 'lit-a11y'],
+      plugins: ['lit-a11y'],
       extends: [
-        'plugin:wc/recommended',
-        'plugin:lit/recommended',
+        // 'plugin:wc/recommended',
+        // 'plugin:lit/recommended',
         'plugin:lit-a11y/recommended',
       ],
-      rules: {
-        'lit/no-template-map': 'error',
-      },
+      // rules: {
+      //   'lit/no-template-map': 'error',
+      //   'lit/no-legacy-template-syntax': 'error',
+      //   'lit/no-template-arrow': 'warn',
+      // },
     },
   ],
 }
